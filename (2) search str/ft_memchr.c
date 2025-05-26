@@ -1,32 +1,16 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_strchr.c                                        :+:      :+:    :+:   */
+/*   ft_memchr.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: esduman <esduman@student.42.istanbul.co    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/05/25 00:04:47 by esduman           #+#    #+#             */
-/*   Updated: 2025/05/25 00:04:47 by esduman          ###   ########.fr       */
+/*   Created: 2025/05/25 22:06:14 by esduman           #+#    #+#             */
+/*   Updated: 2025/05/25 22:06:14 by esduman          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-char    *ft_strchr(const char *s, int c)
+void    *ft_memchr(const void* s, int c, size_t n)
 {
-    int i;
-    char ch;
     
-    i = 0;
-    ch = (char)c;
-
-    while(s[i])
-    {
-        if (s[i] == ch)
-            return ((char *)(s+ i));
-        i++;
-    }
-    
-    if (ch == '\0')
-        return ((char *)(s + i));
-        
-    return (NULL);
 }
