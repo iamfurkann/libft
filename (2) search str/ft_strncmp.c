@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strncmp.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: esduman <esduman@student.42.istanbul.co    +#+  +:+       +#+        */
+/*   By: esduman <esduman@student.42istanbul.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/05/25 22:01:24 by esduman           #+#    #+#             */
-/*   Updated: 2025/05/25 22:01:24 by esduman          ###   ########.fr       */
+/*   Created: 2025/05/27 09:47:42 by esduman           #+#    #+#             */
+/*   Updated: 2025/05/27 09:47:42 by esduman          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
