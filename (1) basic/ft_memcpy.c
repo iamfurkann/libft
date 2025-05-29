@@ -10,6 +10,10 @@
 /*                                                                            */
 /* ************************************************************************** */
 
+#include <stdio.h>
+#include <unistd.h>
+#include <stdlib.h>
+#include <string.h>
 void	*ft_memcpy(void *dest, void *src, size_t n)
 {
 	unsigned char			*ptr;
@@ -20,4 +24,23 @@ void	*ft_memcpy(void *dest, void *src, size_t n)
 	while (n--)
 		*ptr++ = *s++;
 	return (dest);
+}
+
+int	main(void)
+{
+	
+	char str[] = "halit";
+	char *c = "a";
+	char dest[10];
+
+	ft_memcpy(dest, str, 5);
+	int i = 0;
+	while (i < 10)
+	{
+		printf("%c",dest[i++]);
+	}
+	printf("\n%s",dest);
+	
+	
+	
 }

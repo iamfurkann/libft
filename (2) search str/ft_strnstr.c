@@ -6,28 +6,26 @@
 /*   By: esduman <esduman@student.42istanbul.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/27 10:16:26 by esduman           #+#    #+#             */
-/*   Updated: 2025/05/27 10:40:05 by esduman          ###   ########.fr       */
+/*   Updated: 2025/05/29 19:21:06 by esduman          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-char    *ft_strnstr(const char *big, const char *little, size_t len)
+char	*ft_strnstr(const char *big, const char *little, size_t len)
 {
-    size_t i;
-    size_t j;
+	size_t	i;
+	size_t	j;
 
-    if (!*little)
-        return ((char *)big);
-    
-    i = 0;
-    while (i < len && big[i])
-    {
-        j = 0;
-        while (big[i + j] == little[j] && i + j < len && little[j])
-            j++;
-        if(little[j])
-                return((char*)&big[i]);
-        i++;
-    }
-
-    return (NULL);
+	if (!*little)
+		return ((char *)big);
+	i = 0;
+	while (i < len && big[i])
+	{
+		j = 0;
+		while (big[i + j] == little[j] && i + j < len && little[j])
+			j++;
+		if (little[j])
+			return ((char *)&big[i]);
+		i++;
+	}
+	return (NULL);
 }
