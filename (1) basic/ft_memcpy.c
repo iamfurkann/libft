@@ -10,16 +10,14 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-void *ft_memcpy(void *dest, void *src, size_t n)
+void	*ft_memcpy(void *dest, void *src, size_t n)
 {
-    unsigned char *ptr;
-    const unsigned char *s;
+	unsigned char			*ptr;
+	const unsigned char		*s;
 
-    ptr = (unsigned char *)dest;
-    s = (const unsigned char *)src;
-    while (n--)
-    {
-        *ptr++ = *s++;
-    }
-    return (dest);
+	ptr = (unsigned char *)dest;
+	s = (const unsigned char *)src;
+	while (n--)
+		*ptr++ = *s++;
+	return (dest);
 }

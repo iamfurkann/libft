@@ -20,11 +20,11 @@ int	ft_strlen(char *str)
 	return (len);
 }
 
-unsigned int	ft_strlcat(char *dest,const char *src, unsigned int size)
+size_t	ft_strlcat(char *dest,const char *src, size_t size)
 {
 	int	slen;
-	unsigned int	dlen;
-	unsigned int	i;
+	size_t	dlen;
+	size_t	i;
 
 	slen = ft_strlen(src);
 	dlen = 0;
@@ -32,7 +32,7 @@ unsigned int	ft_strlcat(char *dest,const char *src, unsigned int size)
 	while (dlen < size && dest[dlen])
 		dlen++;
 
-	if (dlen == size)
+	if (dlen >= size)
 		return size + slen;
 
 	i = 0;
