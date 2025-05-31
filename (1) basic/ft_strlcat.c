@@ -15,14 +15,14 @@ int	ft_strlen(char *str)
 	int	len;
 
 	len = 0;
-	while(str[len])
+	while (str[len])
 		len++;
 	return (len);
 }
 
-size_t	ft_strlcat(char *dest,const char *src, size_t size)
+size_t	ft_strlcat(char *dest, const char *src, size_t size)
 {
-	int	slen;
+	int		slen;
 	size_t	dlen;
 	size_t	i;
 
@@ -31,19 +31,15 @@ size_t	ft_strlcat(char *dest,const char *src, size_t size)
 	i = 0;
 	while (dlen < size && dest[dlen])
 		dlen++;
-
 	if (dlen >= size)
-		return size + slen;
-
+		return (size + slen);
 	i = 0;
 	while ((dlen + i + 1) < size && src[i])
 	{
 		dest[dlen + i] = src[i];
 		i++;
 	}
-
 	if (dlen + i < size)
 		dest[dlen + i] = '\0';
-
 	return (dlen + slen);
 }
