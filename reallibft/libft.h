@@ -6,7 +6,7 @@
 /*   By: esduman <esduman@student.42istanbul.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/31 05:13:01 by esduman           #+#    #+#             */
-/*   Updated: 2025/05/31 06:01:53 by esduman          ###   ########.fr       */
+/*   Updated: 2025/05/31 14:52:46 by esduman          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,5 +31,6 @@ size_t		ft_strlcpy(char *dest, const char *src, size_t size);
 int			ft_strlen(char *str);
 int			ft_atoi(const char *nptr);
 void		*ft_calloc(size_t number, size_t size);
+char		*ft_substr(char const *s, unsigned int start, size_t len);
 
 #endif
