@@ -6,14 +6,14 @@
 /*   By: esduman <esduman@student.42istanbul.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/31 05:13:01 by esduman           #+#    #+#             */
-/*   Updated: 2025/05/31 05:33:33 by esduman          ###   ########.fr       */
+/*   Updated: 2025/05/31 06:01:53 by esduman          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef LIBFT_H
 # define LIBFT_H
 
-#include <stddef.h>
+# include <stddef.h>
 
 int			ft_isalpha(int c);
 int			ft_isalnum(int c);
