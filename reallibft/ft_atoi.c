@@ -6,17 +6,17 @@
 /*   By: esduman <esduman@student.42istanbul.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/27 10:40:07 by esduman           #+#    #+#             */
-/*   Updated: 2025/06/02 04:01:44 by esduman          ###   ########.fr       */
+/*   Updated: 2025/06/02 07:07:12 by esduman          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-void	f_is_np(const char *nptr, int *i)
+static void	f_is_np(const char *nptr, int *i)
 {
 	while ((nptr[*i] >= 9 && nptr[*i] <= 13) || nptr[*i] == 32)
 		(*i)++;
 }
 
-void	f_is_sign(const char *nptr, int *i, int *sign)
+static void	f_is_sign(const char *nptr, int *i, int *sign)
 {
 	if (nptr[*i] == '-' || nptr[*i] == '+')
 	{

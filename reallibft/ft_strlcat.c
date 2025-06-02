@@ -10,27 +10,23 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-int	ft_strlen(char *str)
-{
-	int	len;
+#include "libft.h"
 
-	len = 0;
-	while (str[len])
-		len++;
-	return (len);
+static void	*f_findlen(char *dest, size_t *dlen, size_t size)
+{
+	while (*dlen < size && dest[*dlen])
+		(*dlen)++;
 }
 
 size_t	ft_strlcat(char *dest, const char *src, size_t size)
 {
-	int		slen;
+	size_t	slen;
 	size_t	dlen;
 	size_t	i;
 
-	slen = ft_strlen(src);
+	slen = ft_strlen((char *)src);
 	dlen = 0;
-	i = 0;
-	while (dlen < size && dest[dlen])
-		dlen++;
+	f_findlen(dest, &dlen, size);
 	if (dlen >= size)
 		return (size + slen);
 	i = 0;

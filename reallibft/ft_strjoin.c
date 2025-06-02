@@ -6,13 +6,13 @@
 /*   By: esduman <esduman@student.42istanbul.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/31 14:56:44 by esduman           #+#    #+#             */
-/*   Updated: 2025/06/02 06:11:44 by esduman          ###   ########.fr       */
+/*   Updated: 2025/06/02 07:06:39 by esduman          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-void	f_add(char const *s, char *new_arr, size_t *i)
+static void	f_add(char const *s, char *new_arr, size_t *i)
 {
 	size_t	j;
 
@@ -25,7 +25,7 @@ void	f_add(char const *s, char *new_arr, size_t *i)
 	}
 }
 
-int	f_strsum(char const *s1, char const *s2)
+static int	f_strsum(char const *s1, char const *s2)
 {
 	return (ft_strlen((char *)s1) + ft_strlen((char *)s2));
 }

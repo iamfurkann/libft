@@ -6,13 +6,13 @@
 /*   By: esduman <esduman@student.42istanbul.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/31 17:27:37 by esduman           #+#    #+#             */
-/*   Updated: 2025/06/02 03:50:02 by esduman          ###   ########.fr       */
+/*   Updated: 2025/06/02 07:07:43 by esduman          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-int	f_find(char c, char const *set)
+static int	f_find(char c, char const *set)
 {
 	int	j;
 
@@ -26,7 +26,7 @@ int	f_find(char c, char const *set)
 	return (0);
 }
 
-int	f_get_first(char const *s1, char const *set)
+static int	f_get_first(char const *s1, char const *set)
 {
 	int	first;
 
@@ -36,7 +36,7 @@ int	f_get_first(char const *s1, char const *set)
 	return (first);
 }
 
-int	f_get_last(char const *s1, char const *set, int first)
+static int	f_get_last(char const *s1, char const *set, int first)
 {
 	int	last;
 

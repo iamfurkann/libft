@@ -6,7 +6,7 @@
 /*   By: esduman <esduman@student.42istanbul.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/31 05:52:17 by esduman           #+#    #+#             */
-/*   Updated: 2025/05/31 06:16:17 by esduman          ###   ########.fr       */
+/*   Updated: 2025/06/02 07:10:05 by esduman          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,7 +17,7 @@ char	*ft_strdup(const char *str)
 	size_t	i;
 	char	*cpy;
 
-	i = ft_strlen(str);
+	i = ft_strlen((char *)str);
 	cpy = (char *)malloc(sizeof(char) * (i + 1));
 	if (!cpy)
 		return (NULL);
