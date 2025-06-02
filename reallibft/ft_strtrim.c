@@ -6,12 +6,11 @@
 /*   By: esduman <esduman@student.42istanbul.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/31 17:27:37 by esduman           #+#    #+#             */
-/*   Updated: 2025/06/02 03:49:08 by esduman          ###   ########.fr       */
+/*   Updated: 2025/06/02 03:50:02 by esduman          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-#include <stdio.h>
 
 int	f_find(char c, char const *set)
 {
