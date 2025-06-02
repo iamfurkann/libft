@@ -6,7 +6,7 @@
 /*   By: esduman <esduman@student.42istanbul.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/31 05:13:01 by esduman           #+#    #+#             */
-/*   Updated: 2025/05/31 16:39:25 by esduman          ###   ########.fr       */
+/*   Updated: 2025/06/02 00:51:07 by esduman          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,6 +14,7 @@
 # define LIBFT_H
 
 # include <stddef.h>
+# include <stdlib.h>
 
 int			ft_isalpha(int c);
 int			ft_isalnum(int c);

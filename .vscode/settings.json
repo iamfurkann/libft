@@ -6,6 +6,7 @@
         "random": "c",
         "stdlib.h": "c",
         "libft.h": "c",
-        "string.h": "c"
+        "string.h": "c",
+        "type_traits": "c"
     }
 }
