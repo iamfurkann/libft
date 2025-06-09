@@ -1,27 +1,18 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_strncmp.c                                       :+:      :+:    :+:   */
+/*   ft_putchar_fd.c                                    :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: esduman <esduman@student.42istanbul.com    +#+  +:+       +#+        */
+/*   By: esduman <esduman@student.42.istanbul.co    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/05/27 09:47:42 by esduman           #+#    #+#             */
-/*   Updated: 2025/05/27 09:47:42 by esduman          ###   ########.fr       */
+/*   Created: 2025/06/09 17:09:33 by esduman           #+#    #+#             */
+/*   Updated: 2025/06/09 17:09:33 by esduman          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include <unistd.h>
 
-int	ft_strncmp(const char *s1, const char *s2, size_t n)
+void    ft_putchar_fd(char c, int fd)
 {
-	size_t	i;
-
-	i = 0;
-	while (i < n)
-	{
-		if (s1[i] != s2[i] || s1[i] || s2[i])
-			return (s1[i] - s2[i]);
-		i++;
-	}
-	return (0);
+    write (fd, &c, 1);
 }

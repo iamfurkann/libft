@@ -3,12 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strnstr.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: esduman <esduman@student.42istanbul.com    +#+  +:+       +#+        */
+/*   By: esduman <esduman@student.42.istanbul.co    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/27 10:16:26 by esduman           #+#    #+#             */
-/*   Updated: 2025/05/29 19:21:06 by esduman          ###   ########.fr       */
+/*   Updated: 2025/06/09 16:23:53 by esduman          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+#include "libft.h"
 
 char	*ft_strnstr(const char *big, const char *little, size_t len)
 {

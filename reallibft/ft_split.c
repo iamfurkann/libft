@@ -33,11 +33,13 @@ static	void	f_cword(char const *s, char c, int *cword)
 
 static	void	f_getwlength(char const *s, char c, int *len)
 {
-	char *pos = ft_strchr(s, c);
-    if (pos)
-        *len = pos - s;
-    else
-        *len = ft_strlen((char *)s);
+	char	*pos;
+
+	pos = ft_strchr(s, c);
+	if (pos)
+		*len = pos - s;
+	else
+		*len = ft_strlen((char *)s);
 }
 
 static	int	f_free(char **new_arr, int i)

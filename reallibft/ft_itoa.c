@@ -22,14 +22,14 @@ static int	f_getsize(int n, int *size)
 		n /= 10;
 		(*size)++;
 	}
-	return(*size);
+	return (*size);
 }
 
 char	*ft_itoa(int n)
 {
-	int	size;
-	long num;
-	char *ptr;
+	int		size;
+	long	num;
+	char	*ptr;
 
 	f_getsize(n, &size);
 	num = n;
@@ -50,14 +50,4 @@ char	*ft_itoa(int n)
 		num /= 10;
 	}
 	return (ptr);
-}
-
-#include <stdio.h>
-int main(void)
-{
-	printf("%s\n", ft_itoa(123));           // "123"
-	printf("%s\n", ft_itoa(-456));          // "-456"
-	printf("%s\n", ft_itoa(0));             // "0"
-	printf("%s\n", ft_itoa(-2147483648));   // "-2147483648"
-	return (0);
 }

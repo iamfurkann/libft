@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strjoin.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: esduman <esduman@student.42istanbul.com    +#+  +:+       +#+        */
+/*   By: esduman <esduman@student.42.istanbul.co    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/31 14:56:44 by esduman           #+#    #+#             */
-/*   Updated: 2025/06/02 07:06:39 by esduman          ###   ########.fr       */
+/*   Updated: 2025/06/09 17:05:13 by esduman          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,7 +18,7 @@ static void	f_add(char const *s, char *new_arr, size_t *i)
 
 	j = 0;
 	while (s[j])
-	{	
+	{
 		new_arr[*i] = s[j];
 		(*i)++;
 		j++;

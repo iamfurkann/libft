@@ -6,7 +6,7 @@
 /*   By: esduman <esduman@student.42.istanbul.co    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/31 05:13:01 by esduman           #+#    #+#             */
-/*   Updated: 2025/06/05 00:20:06 by esduman          ###   ########.fr       */
+/*   Updated: 2025/06/09 17:23:32 by esduman          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,10 +30,18 @@ void		*ft_memset(void *s, int c, size_t n);
 char		*ft_strchr(const char *s, int c);
 size_t		ft_strlcat(char *dest, const char *src, size_t size);
 size_t		ft_strlcpy(char *dest, const char *src, size_t size);
-int			ft_strlen(char *str);
+size_t		ft_strlen(const char *s);
 int			ft_atoi(const char *nptr);
 void		*ft_calloc(size_t number, size_t size);
 char		*ft_substr(char const *s, unsigned int start, size_t len);
 char		*ft_strjoin(char const *s1, char const *s2);
-
+char		*ft_strtrim(char const *s1, char const *set);
+char		**ft_split(char const *s, char c);
+char		*ft_itoa(int n);
+char		*ft_strmapi(char const *s, char (*f)(unsigned int, char));
+void        ft_striteri(char *s, void (*f)(unsigned int, char *));
+void        ft_putchar_fd(char c, int fd);
+void        ft_putstr_fd(char *s, int fd);
+void        ft_putendl_fd(char *s, int fd);
+void        ft_putnbr_fd(int n, int fd);
 #endif
