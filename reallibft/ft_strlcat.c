@@ -12,7 +12,7 @@
 
 #include "libft.h"
 
-static void	*f_findlen(char *dest, size_t *dlen, size_t size)
+static void	f_findlen(char *dest, size_t *dlen, size_t size)
 {
 	while (*dlen < size && dest[*dlen])
 		(*dlen)++;

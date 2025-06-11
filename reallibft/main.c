@@ -13,27 +13,13 @@
 #include <stdio.h>
 #include "libft.h"
 
-char	my_func(unsigned int i, char c)
-{
-	if (i % 2 == 0 && c >= 'A' && c <= 'Z')
-		return (c + 32);
-	if (i % 2 == 1 && c >= 'a' && c <= 'z')
-		return (c - 32);
-	return (c);
-}
-
 int	main(void)
 {
-	char	*result;
+	char *s = "          talhac talha yusuf";
 
-	result = ft_strmapi("HeLLo WoRlD", my_func);
-	if (!result)
-	{
-		printf("Memory allocation failed\n");
-		return (1);
-	}
-	printf("Original: %s\n", "HeLLo WoRlD");
-	printf("Modified: %s\n", result);
-	free (result);
+	char **res = ft_split(s,' ');
+	printf("%s", res[0]);
+	printf("%s", res[1]);
+	printf("%s", res[2]);
 	return (0);
 }

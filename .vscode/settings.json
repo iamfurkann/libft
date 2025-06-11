@@ -7,6 +7,12 @@
         "stdlib.h": "c",
         "libft.h": "c",
         "string.h": "c",
-        "type_traits": "c"
+        "type_traits": "c",
+        "array": "c",
+        "string_view": "c",
+        "initializer_list": "c",
+        "ranges": "c",
+        "span": "c",
+        "utility": "c"
     }
 }
