@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strnstr.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: esduman <esduman@student.42.istanbul.co    +#+  +:+       +#+        */
+/*   By: esduman <esduman@student.42istanbul.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/27 10:16:26 by esduman           #+#    #+#             */
-/*   Updated: 2025/06/09 16:23:53 by esduman          ###   ########.fr       */
+/*   Updated: 2025/06/12 09:42:30 by esduman          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,7 +25,7 @@ char	*ft_strnstr(const char *big, const char *little, size_t len)
 		j = 0;
 		while (big[i + j] == little[j] && i + j < len && little[j])
 			j++;
-		if (little[j])
+		if (little[j] == '\0')
 			return ((char *)&big[i]);
 		i++;
 	}

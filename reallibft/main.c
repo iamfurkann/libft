@@ -15,11 +15,14 @@
 
 int	main(void)
 {
-	char *s = "          talhac talha yusuf";
+	float a = 0;
 
-	char **res = ft_split(s,' ');
-	printf("%s", res[0]);
-	printf("%s", res[1]);
-	printf("%s", res[2]);
+	ft_memset(&a, 66, 4);
+	ft_memset(&a, 132, 3);
+	ft_memset(&a, 163, 2);
+	ft_memset(&a, 215, 1);
+	printf("%f", a);
+
+	ft_strnstr();
 	return (0);
 }
