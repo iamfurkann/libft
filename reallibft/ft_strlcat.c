@@ -12,30 +12,30 @@
 
 #include "libft.h"
 
-static void	f_findlen(char *dest, size_t *dlen, size_t size)
+static void	f_findlen(char *dst, size_t *dlen, size_t size)
 {
-	while (*dlen < size && dest[*dlen])
+	while (*dlen < size && dst[*dlen])
 		(*dlen)++;
 }
 
-size_t	ft_strlcat(char *dest, const char *src, size_t size)
+size_t	ft_strlcat(char *dst, const char *src, size_t size)
 {
 	size_t	slen;
 	size_t	dlen;
 	size_t	i;
 
-	slen = ft_strlen((char *)src);
+	slen = ft_strlen(src);
 	dlen = 0;
-	f_findlen(dest, &dlen, size);
+	f_findlen(dst, &dlen, size);
 	if (dlen >= size)
 		return (size + slen);
 	i = 0;
 	while ((dlen + i + 1) < size && src[i])
 	{
-		dest[dlen + i] = src[i];
+		dst[dlen + i] = src[i];
 		i++;
 	}
 	if (dlen + i < size)
-		dest[dlen + i] = '\0';
+		dst[dlen + i] = '\0';
 	return (dlen + slen);
 }

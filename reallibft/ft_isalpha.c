@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_isalpha.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: esduman <esduman@student.42.istanbul.co    +#+  +:+       +#+        */
+/*   By: esduman <esduman@student.42istanbul.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/05/24 19:50:40 by esduman           #+#    #+#             */
-/*   Updated: 2025/05/24 19:50:40 by esduman          ###   ########.fr       */
+/*   Created: 2025/06/18 22:54:52 by esduman           #+#    #+#             */
+/*   Updated: 2025/06/18 22:54:52 by esduman          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

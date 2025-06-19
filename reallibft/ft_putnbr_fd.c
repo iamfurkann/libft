@@ -22,7 +22,7 @@ static void	f_writenum(int n, int fd)
 
 void	ft_putnbr_fd(int n, int fd)
 {
-	if (n == -2147483648)
+	if (n == INT_MINI)
 	{
 		ft_putstr_fd("-2147483648", fd);
 		return ;

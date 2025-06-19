@@ -6,7 +6,7 @@
 /*   By: esduman <esduman@student.42istanbul.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/31 14:05:20 by esduman           #+#    #+#             */
-/*   Updated: 2025/06/03 13:37:02 by esduman          ###   ########.fr       */
+/*   Updated: 2025/06/19 01:34:09 by esduman          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -34,9 +34,9 @@ char	*ft_substr(char const *s, unsigned int start, size_t len)
 
 	if (!s)
 		return (NULL);
-	if (start >= ft_strlen((char *)s))
+	if (start >= ft_strlen(s))
 		return (f_get_null());
-	f_isbig(&len, ft_strlen((char *)s), start);
+	f_isbig(&len, ft_strlen(s), start);
 	new_value = (char *)malloc(len + 1);
 	if (!new_value)
 		return (NULL);

@@ -6,7 +6,7 @@
 /*   By: esduman <esduman@student.42istanbul.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/31 17:27:37 by esduman           #+#    #+#             */
-/*   Updated: 2025/06/03 13:36:36 by esduman          ###   ########.fr       */
+/*   Updated: 2025/06/19 02:31:54 by esduman          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -40,7 +40,7 @@ static int	f_get_last(char const *s1, char const *set, int first)
 {
 	int	last;
 
-	last = ft_strlen((char *)s1);
+	last = ft_strlen(s1);
 	while (last > first && f_find(s1[last - 1], set))
 		last--;
 	return (last);
@@ -48,11 +48,13 @@ static int	f_get_last(char const *s1, char const *set, int first)
 
 char	*ft_strtrim(char const *s1, char const *set)
 {
-	char	*new_arr;
-	int		first;
-	int		last;
-	int		i;
+	char		*new_arr;
+	int			first;
+	int			last;
+	size_t		i;
 
+	if (!s1 || !set)
+		return (NULL);
 	first = f_get_first(s1, set);
 	last = f_get_last(s1, set, first);
 	new_arr = (char *)malloc((last - first) + 1);

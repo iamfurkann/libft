@@ -12,9 +12,9 @@
 
 #include "libft.h"
 
-static	void	f_cword(char const *s, char c, int *cword)
+static	void	f_cword(char const *s, char c, size_t *cword)
 {
-	int	f_word;
+	size_t	f_word;
 
 	*cword = 0;
 	f_word = 0;
@@ -31,7 +31,7 @@ static	void	f_cword(char const *s, char c, int *cword)
 	}
 }
 
-static	void	f_getwlength(char const *s, char c, int *len)
+static	void	f_getwlength(char const *s, char c, size_t *len)
 {
 	char	*pos;
 
@@ -39,10 +39,10 @@ static	void	f_getwlength(char const *s, char c, int *len)
 	if (pos)
 		*len = pos - s;
 	else
-		*len = ft_strlen((char *)s);
+		*len = ft_strlen(s);
 }
 
-static	int	f_free(char **new_arr, int i)
+static	int	f_free(char **new_arr, size_t i)
 {
 	while (i--)
 		free(new_arr[i]);
@@ -52,8 +52,8 @@ static	int	f_free(char **new_arr, int i)
 
 static	int	f_setword(char const *s, char c, char **new_arr)
 {
-	int	i;
-	int	len;
+	size_t	i;
+	size_t	len;
 
 	i = 0;
 	while (*s)
@@ -76,8 +76,8 @@ static	int	f_setword(char const *s, char c, char **new_arr)
 
 char	**ft_split(char const *s, char c)
 {
-	int		cword;
-	char	**new_arr;
+	size_t		cword;
+	char		**new_arr;
 
 	if (!s)
 		return (NULL);
