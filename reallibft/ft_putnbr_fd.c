@@ -11,7 +11,6 @@
 /* ************************************************************************** */
 
 #include "libft.h"
-#include <unistd.h>
 
 static void	f_writenum(int n, int fd)
 {
@@ -22,7 +21,7 @@ static void	f_writenum(int n, int fd)
 
 void	ft_putnbr_fd(int n, int fd)
 {
-	if (n == INT_MINI)
+	if (n == -2147483648)
 	{
 		ft_putstr_fd("-2147483648", fd);
 		return ;
