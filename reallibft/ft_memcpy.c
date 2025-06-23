@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_memcpy.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: esduman <esduman@student.42.istanbul.co    +#+  +:+       +#+        */
+/*   By: esduman <esduman@student.42istanbul.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/05/24 22:34:37 by esduman           #+#    #+#             */
-/*   Updated: 2025/05/24 22:34:37 by esduman          ###   ########.fr       */
+/*   Created: 2025/06/23 13:40:03 by esduman           #+#    #+#             */
+/*   Updated: 2025/06/23 13:40:03 by esduman          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

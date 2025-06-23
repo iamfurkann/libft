@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_memset.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: esduman <esduman@student.42.istanbul.co    +#+  +:+       +#+        */
+/*   By: esduman <esduman@student.42istanbul.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/05/24 22:07:39 by esduman           #+#    #+#             */
-/*   Updated: 2025/05/24 22:07:39 by esduman          ###   ########.fr       */
+/*   Created: 2025/06/23 13:40:17 by esduman           #+#    #+#             */
+/*   Updated: 2025/06/23 13:40:17 by esduman          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

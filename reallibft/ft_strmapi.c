@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strmapi.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: esduman <esduman@student.42.istanbul.co    +#+  +:+       +#+        */
+/*   By: esduman <esduman@student.42istanbul.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/06/09 16:46:08 by esduman           #+#    #+#             */
-/*   Updated: 2025/06/09 16:46:08 by esduman          ###   ########.fr       */
+/*   Created: 2025/06/23 13:41:39 by esduman           #+#    #+#             */
+/*   Updated: 2025/06/23 13:41:39 by esduman          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_striteri.c                                      :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: esduman <esduman@student.42.istanbul.co    +#+  +:+       +#+        */
+/*   By: esduman <esduman@student.42istanbul.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/06/09 16:58:58 by esduman           #+#    #+#             */
-/*   Updated: 2025/06/09 16:58:58 by esduman          ###   ########.fr       */
+/*   Created: 2025/06/23 13:41:02 by esduman           #+#    #+#             */
+/*   Updated: 2025/06/23 13:41:02 by esduman          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

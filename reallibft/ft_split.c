@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_split.c                                         :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: esduman <esduman@student.42.istanbul.co    +#+  +:+       +#+        */
+/*   By: esduman <esduman@student.42istanbul.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/06/04 23:07:28 by esduman           #+#    #+#             */
-/*   Updated: 2025/06/04 23:07:28 by esduman          ###   ########.fr       */
+/*   Created: 2025/06/23 13:40:40 by esduman           #+#    #+#             */
+/*   Updated: 2025/06/23 13:40:40 by esduman          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

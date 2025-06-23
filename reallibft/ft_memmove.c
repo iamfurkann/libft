@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_memmove.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: esduman <esduman@student.42.istanbul.co    +#+  +:+       +#+        */
+/*   By: esduman <esduman@student.42istanbul.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/05/24 23:40:09 by esduman           #+#    #+#             */
-/*   Updated: 2025/05/24 23:40:09 by esduman          ###   ########.fr       */
+/*   Created: 2025/06/23 13:40:13 by esduman           #+#    #+#             */
+/*   Updated: 2025/06/23 13:40:13 by esduman          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
