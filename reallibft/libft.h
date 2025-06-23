@@ -6,14 +6,13 @@
 /*   By: esduman <esduman@student.42istanbul.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/31 05:13:01 by esduman           #+#    #+#             */
-/*   Updated: 2025/06/22 14:23:49 by esduman          ###   ########.fr       */
+/*   Updated: 2025/06/23 13:33:01 by esduman          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef LIBFT_H
 # define LIBFT_H
 
-# include <stddef.h>
 # include <stdlib.h>
 # include <unistd.h>
 

@@ -14,6 +14,7 @@
 #include "libft.h"
 #include <unistd.h>
 #include <string.h>
+#include <ctype.h>
 
 char strmapi_toupper(unsigned int i, char c)
 {

@@ -2,6 +2,8 @@
     "files.associations": {
         "libft.h": "c",
         "stdio.h": "c",
-        "limits.h": "c"
+        "limits.h": "c",
+        "stddef.h": "c",
+        "stdlib.h": "c"
     }
 }
